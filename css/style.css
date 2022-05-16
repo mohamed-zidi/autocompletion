@@ -1,0 +1,144 @@
+body {
+    margin:0;
+    padding: 0;
+    /* background: url(../img/img_background.jpg); */
+    background-color: #000;
+    background-size: 100%;
+    font-family: sans-serif;
+}
+/* box-content {
+    display: flex;
+    justify-content:space-evenly;
+   
+} */
+
+div {
+
+    width: 60%;
+    height: 30%;
+}
+ul{
+
+    /* background: #ffc107; */
+    z-index: 1;
+    list-style-type: none;
+    margin-right: 45%;
+}
+
+li{
+
+    background: #ff5722;
+    z-index: 2;
+    text-decoration: none;
+    margin-left: 25%;
+    border-radius: 25px 25px;
+    padding: 1% 0 0 2%;
+    margin: 3px 3px;
+    box-shadow: 5px 2.5px 2.5px black;
+}
+
+a{
+
+    text-decoration: none;
+    color: black;
+}
+
+span {
+
+    margin: 2%;
+}
+
+.list{
+
+    margin: 0 70% 0 0;
+    width: 80%;
+
+}
+
+h1{
+
+    margin: 0 0 10px 25% ;
+    padding: 0;
+    color: #ff5722;
+    font-size: 24px;
+    z-index: 4;
+}
+
+.box {
+
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    width: 500px;
+    transform:translate(-50%,-50%);
+    z-index: 4;
+}
+
+input {
+
+    position: absolute;
+    display: inline-block;
+    font-size: 20px;
+    box-sizing: border-box;
+    transition: .5s;
+}
+
+.input {
+
+    background: #fff;
+    width: 340px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 25px 0 0 25px;
+}
+
+.btn {
+
+    border-radius: 0 25px 25px 0;
+    left: 63%;
+    position: absolute;
+    height: 50px;
+    width: 150px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+
+.btn:hover {
+
+    background: #ff5722;
+}
+
+li:hover {
+
+    background: #ffc107;
+}
+
+ul {
+    position: absolute;
+    z-index: 2;
+    
+    
+}
+
+.infos {
+
+    color: #ff5722;
+}
+
+.songName {
+    z-index: 0;
+}
+.artist {
+    z-index: 0;
+}
+
+.box-content {
+
+    margin: 10% 0 0 40%;
+    z-index: 1;
+}
